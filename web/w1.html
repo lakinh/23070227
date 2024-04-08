@@ -1,0 +1,35 @@
+<header>
+    <img src="Capture.PNG" width="120px"/>
+    <div class="inputSearch desktop">
+      <input type="text" placeholder="Type to search..."/>
+      <span><i class="fa-solid fa-search"></i></span>
+    </div>
+    <nav class="desktop">
+      <ul>
+        <li>Trang chủ</li>
+        <li>Tin tức nổi bật</li>
+        <li>Giáo dục</li>
+        <li>Khoa học</li>
+        <li>Thể thao</li>
+      </ul>
+    </nav>
+    <div class="menu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+   css: 
+ 
+  .desktop{
+    display:none;
+}
+@media all and (min-width:700px) {
+    header {
+        padding: 5px 30px;
+    }
+    .desktop{
+        display:flex;
+    }
+    .menu{
+        display:none;
+    }
+}
+ 
